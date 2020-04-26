@@ -20,6 +20,7 @@ title_separator: "-"
 #subtitle: "My personal website and blog"
 name: "Ben Mepham"
 #email:
+logo: /assets/images/b-icon
 description: "My personal website and blog"
 url: "https://bjm.me.uk"
 repository: benmepham/benmepham.github.io
@@ -65,6 +66,7 @@ author:
   name   : "Ben Mepham"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Technology Enthusiast and Computer Science Student"
+  location: "UK"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -76,7 +78,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/benmepham"
     - label: "Email"
-      icon: "fas fa-at"
+      icon: "fas fa-fw fa-at"
       url: "mailto:contact@bjm.me.uk"
 
 footer:
