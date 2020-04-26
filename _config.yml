@@ -15,15 +15,15 @@
 # in the templates via {{ site.myvariable }}.
 
 locale: "en-GB"
-title: Ben Mepham
+title: "Ben Mepham"
 title_separator: "-"
 #subtitle: "My personal website and blog"
 name: "Ben Mepham"
 #email:
-logo: /assets/images/b-icon
+logo: "/assets/images/b-icon.png"
 description: "My personal website and blog"
 url: "https://bjm.me.uk"
-repository: benmepham/benmepham.github.io
+repository: "benmepham/benmepham.github.io"
 twitter_username: benjmepham
 github_username: benmepham
 minimal_mistakes_skin: contrast
