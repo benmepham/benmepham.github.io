@@ -62,9 +62,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Ben Mepham"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Technology Enthusiast and Computer Science Student"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -83,14 +83,14 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/benjmepham"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
-
+      url: "https://github.com/benmepham"
+    - label: "Email"
+      icon: "fas fa-fw fa-at"
+      url: "mail:contact@bjm.me.uk"
+    # Linkedin
 defaults:
   # _posts
   - scope:
