@@ -89,7 +89,7 @@ footer:
       url: "https://github.com/benmepham"
     - label: "Email"
       icon: "fas fa-fw fa-at"
-      url: "mail:contact@bjm.me.uk"
+      url: "mailto:contact@bjm.me.uk"
     # Linkedin
 defaults:
   # _posts
