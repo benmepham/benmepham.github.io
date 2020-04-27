@@ -10,7 +10,6 @@ header:
   actions:
     - label: "Read blog"
     - url: "/posts/"  
-  actions:
     - label: "About me"
     - url: "/about/"  
 excerpt: "Hi, I'm Ben, Technology Enthusiast, and Computer Science Student. Welcome to my Website."
