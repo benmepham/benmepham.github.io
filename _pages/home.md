@@ -7,11 +7,12 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/home-feature.jpg
   caption: "Photo credit: Me - 2019"
+
   actions:
     - label: "Read blog"
-    - url: "/posts/"  
+      url: "/posts/"  
     - label: "About me"
-    - url: "/about/"  
+      url: "/about/"  
 excerpt: "Hi, I'm Ben, Technology Enthusiast, and Computer Science Student. Welcome to my Website."
 feature_row:
   - title: "Blog"
