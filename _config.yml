@@ -1,9 +1,3 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
 #
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
@@ -23,7 +17,7 @@ name: "Ben Mepham"
 logo: "/assets/images/b-icon.png"
 description: "My personal website and blog"
 url: "https://bjm.me.uk"
-repository: "benmepham/benmepham.github.io"
+repository: benmepham/benmepham.github.io
 twitter_username: benjmepham
 github_username: benmepham
 minimal_mistakes_skin: contrast
@@ -41,18 +35,21 @@ timezone: Europe/London
 include:
   - _pages
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
+#  Exclude from processing.
+#  The following items will not be processed, by default. Create a custom list
+#  to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - docker-compose.yml
+  - README.md
+  - CNAME
+  - .gitignore
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
