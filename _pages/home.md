@@ -6,7 +6,7 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/home-feature.jpg
-  caption: "Photo credit: Me 2019"
+  caption: "Photo credit: Me - 2019"
   actions:
     - label: "Read blog"
     - url: "/posts/"  
