@@ -50,6 +50,9 @@ exclude:
   - README.md
   - CNAME
   - .gitignore
+  - site.code-workspace
+  - favicon.ico
+
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
