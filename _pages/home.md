@@ -3,13 +3,17 @@ layout: splash
 permalink: /
 hidden: true
 header:
-  #overlay_color: "#5e616c"
+  overlay_color: "#000"
+  overlay_filter: "0.5"
   overlay_image: /assets/images/home-feature.jpg
   caption: "Photo credit: Me 2019"
-  #actions:
-  #  - label: "<i class='fas fa-download'></i> Install now"
-  #    url: "/docs/quick-start-guide/"
-excerpt: "Technology Enthusiast and Computer Science Student"
+  actions:
+    - label: "Read blog"
+    - url: "/posts/"  
+  actions:
+    - label: "About me"
+    - url: "/about/"  
+excerpt: "Hi, I'm Ben, Technology Enthusiast, and Computer Science Student. Welcome to my Website."
 feature_row:
   - title: "Blog"
     excerpt: "Here is my blog"
