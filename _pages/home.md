@@ -13,7 +13,7 @@ header:
       url: "/posts/"  
     - label: "About me"
       url: "/about/"  
-excerpt: "Hi, I'm Ben, Technology Enthusiast, and Computer Science Student. Welcome to my Website."
+excerpt: "Hi, I'm Ben, Technology Enthusiast, and Computer Science Student. Welcome to my personal website and blog."
 feature_row:
   - title: "Blog"
     excerpt: "Here is my blog"
