@@ -1,6 +1,5 @@
 ---
 layout: splash
-permalink: /home/
 author_profile: false
 hidden: true
 header:
@@ -15,15 +14,20 @@ header:
     - label: "About me"
       url: "/about/"  
 excerpt: "Hi, I'm Ben. Technology Enthusiast, and Computer Science Student. Welcome to my personal website and blog."
-# feature_row:
-#   - title: "Blog"
-#     excerpt: "Here is my blog"
-#     url: "/posts/"
-#     btn_class: "btn--primary"
-#     btn_label: "Read"
-#   - title: "About me"
-#     excerpt: "Find out more about me"
-#     url: "/about/"
-#     btn_class: "btn--primary"
-#     btn_label: "test"     
 ---
+
+
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+
+    {% if paginator %}
+    {% assign posts = paginator.posts %}
+    {% else %}
+    {% assign posts = site.posts %}
+    {% endif %}
+
+    {% for post in posts %}
+    {% include archive-single.html %}
+    {% endfor %}
+
+    {% include paginator.html %}
+
