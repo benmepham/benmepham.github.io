@@ -12,10 +12,7 @@
     /* button colors */
     $buttoncolors:
     (reddit, $reddit-color),
-    (tumblr, $tumblr-color),
-    (xing, $xing-color),
-    (github, $github-color),
-    (gitlab, $gitlab-color);
+    (github, $github-color);
   
     @each $buttoncolor, $color in $buttoncolors {
       &--#{$buttoncolor} {
