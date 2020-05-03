@@ -51,7 +51,6 @@ exclude:
   - CNAME
   - .gitignore
   - site.code-workspace
-  - favicon.ico
 
 # Plugins (previously gems:)
 plugins:
