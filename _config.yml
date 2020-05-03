@@ -23,6 +23,14 @@ github_username: benmepham
 minimal_mistakes_skin: contrast
 search: true
 
+# Comments
+comments:
+  provider: "utterances" # false (default), "disqus", "discourse", "facebook", "staticman_v2", "staticman", "utterances", "custom"
+  utterances:
+    theme: # "github-light" (default), "github-dark"
+    issue_term: # "pathname" (default)
+
+
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
@@ -101,7 +109,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: false
+      comments: true
       share: true
       related: true
   # _pages
