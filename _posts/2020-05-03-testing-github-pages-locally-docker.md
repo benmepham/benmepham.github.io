@@ -1,12 +1,12 @@
 ---
-title: "Testing a GitHub Pages site with the Minimal Mistakes theme locally using Docker"
+title: "Testing a GitHub Pages site (Minimal Mistakes) locally using Docker"
 categories:
   - blog
 ---
 
-I wanted to test this site locally so I don't have to push to GitHub every time I want to modify or change part of my site. I also want to be able to try new things out without breaking the live site. I didn't want to have to mess around installing Jekyll and Ruby, so instead, I decided I would like to be able to run the site inside a Docker container. 
+I wanted to test this site locally so I don't have to push to GitHub every time I want to modify or change part of my site. I also want to be able to try new things out without breaking the live site. I didn't want to have to mess around installing Jekyll and Ruby, so instead, I decided I would like to be able to run the site inside a Docker container.
 
-After researching this, I chose Bret Fisher's [jekyll-serve](https://hub.docker.com/r/bretfisher/jekyll-serve) image as it worked out of the box with the [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) theme I am using. 
+After researching this, I chose Bret Fisher's [jekyll-serve](https://hub.docker.com/r/bretfisher/jekyll-serve) image as it worked out of the box with the [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) theme I am using.
 
 Just create a docker-compose.yml file in the directory of your GitHub Pages site:
 
@@ -33,6 +33,6 @@ exclude:
   - site.code-workspace
 ```
 
-Also, I use Visual Studio Code, which I usually have set to Auto Save my code. However, when editing my site, I have this turned off, otherwise, the Docker container will regenerate the site after every small change. 
+Also, I use Visual Studio Code, which I usually have set to Auto Save my code. However, when editing my site, I have this turned off, otherwise, the Docker container will regenerate the site after every small change.
 
 Thanks for reading, I hope this has been useful to you.
