@@ -20,7 +20,7 @@ url: "https://bjm.me.uk"
 repository: benmepham/benmepham.github.io
 twitter_username: benjmepham
 github_username: benmepham
-minimal_mistakes_skin: contrast
+minimal_mistakes_skin: default
 search: true
 
 # Comments
@@ -69,23 +69,20 @@ plugins:
     - jekyll-include-cache
 
 author:
-    name: "Ben Mepham"
+    name: "Ben"
     avatar: "/assets/images/bio-photo.jpg"
-    bio: "Technology Enthusiast and Computer Science Student"
+    bio: "Tech Enthusiast and Computer Science Student"
     location: "UK"
     links:
-        #- label: "Website"
-        #  icon: "fas fa-fw fa-link"
-        #  url: "https://bjm.me.uk"
         - label: "Twitter"
           icon: "fab fa-fw fa-twitter-square"
           url: "https://twitter.com/benjmepham"
         - label: "GitHub"
           icon: "fab fa-fw fa-github"
           url: "https://github.com/benmepham"
-        # - label: "Email"
-        #   icon: "fas fa-fw fa-at"
-        #   url: "mailto:contact@bjm.me.uk"
+        - label: "Linkedin"
+          icon: "fab fa-fw fa-linkedin"
+          url: "https://www.linkedin.com/in/benmepham"
 
 footer:
     links:
@@ -95,10 +92,10 @@ footer:
         - label: "GitHub"
           icon: "fab fa-fw fa-github"
           url: "https://github.com/benmepham"
-        - label: "Email"
-          icon: "fas fa-fw fa-at"
-          url: "mailto:contact@bjm.me.uk"
-        # Linkedin
+        - label: "Linkedin"
+          icon: "fab fa-fw fa-linkedin"
+          url: "https://www.linkedin.com/in/benmepham"
+
 defaults:
     # _posts
     - scope:
@@ -111,6 +108,7 @@ defaults:
           comments: true
           share: true
           related: true
+          show_date: true
     # _pages
     - scope:
           path: "_pages"

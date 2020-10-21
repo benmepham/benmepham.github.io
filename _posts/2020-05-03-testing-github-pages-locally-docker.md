@@ -1,10 +1,10 @@
 ---
-title: "Testing a GitHub Pages site (Minimal Mistakes) locally using Docker"
+title: "Testing a GitHub Pages site locally using Docker"
 categories:
   - blog
 ---
 
-I wanted to test this site locally so I don't have to push to GitHub every time I want to modify or change part of my site. I also want to be able to try new things out without breaking the live site. I didn't want to have to mess around installing Jekyll and Ruby, so instead, I decided I would like to be able to run the site inside a Docker container.
+I wanted to be able to test changes to my site before pushing them to the live site on GitHub. I'm sure there are better ways to do this, but I found a quick and easy way is to use a docker container.
 
 After researching this, I chose Bret Fisher's [jekyll-serve](https://hub.docker.com/r/bretfisher/jekyll-serve) image as it worked out of the box with the [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) theme I am using.
 
@@ -22,9 +22,9 @@ services:
       - '80:4000'
 ```
 
-Then type: `docker-compose up` and you will have your GitHub Pages site running locally. Simple!
+Then as long as you have docker installed, type `docker-compose up` and you will have your GitHub Pages site running locally. Simple!
 
-When you save or create a file in your site directory the Docker container will regenerate your site (apart from _config.yml), if you don't want this to happen (for example for README.md) you can edit your _config.yml file and specify files to be excluded:
+Note: When you save or create a file in your site directory the Docker container will regenerate your site (apart from _config.yml). If you don't want this to happen, for example for changes to README.md, you can edit your _config.yml file and specify files to be excluded:
 
 ```yaml
 exclude:
@@ -33,6 +33,6 @@ exclude:
   - site.code-workspace
 ```
 
-Also, I use Visual Studio Code, which I usually have set to Auto Save my code. However, when editing my site, I have this turned off, otherwise, the Docker container will regenerate the site after every small change.
+Also, I use Visual Studio Code, which I usually have set to Auto Save my code. However, when editing my site, I have this turned off, otherwise, the docker container will regenerate the site after every small change.
 
 Thanks for reading, I hope this has been useful to you.
