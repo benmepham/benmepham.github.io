@@ -1,5 +1,7 @@
 ---
-title: "Installing a second SSD in the Lenovo ThinkPad T480s"
+title: "Installing a Second SSD in the Lenovo ThinkPad T480s"
+header:
+  image: /assets/images/2020-12-29.jpg
 categories:
   - blog
 ---
