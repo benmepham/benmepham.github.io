@@ -17,7 +17,7 @@ name: "Ben Mepham"
 logo: "/assets/images/b-icon.png"
 description: "Ben Mepham's personal website and blog"
 url: "https://bjm.me.uk"
-repository: benmepham/benmepham.github.io
+repository: "benmepham/benmepham.github.io"
 twitter_username: benjmepham
 github_username: benmepham
 minimal_mistakes_skin: default
