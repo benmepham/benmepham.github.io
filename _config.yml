@@ -15,6 +15,7 @@ title_separator: "-"
 name: "Ben Mepham"
 #email:
 logo: "/assets/images/b-icon.png"
+#teaser: #set default teaser image
 description: "Ben Mepham's personal website and blog"
 url: "https://bjm.me.uk"
 repository: "benmepham/benmepham.github.io"
