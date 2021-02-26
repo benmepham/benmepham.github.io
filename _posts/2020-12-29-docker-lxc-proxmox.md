@@ -8,7 +8,7 @@ categories:
   - blog
 ---
 
-NOTE: a recent proxmox update has broken docker running in LXC, read [this](https://forum.proxmox.com/threads/docker-in-lxc-l%C3%A4uft-nicht-mehr.83651/) forum post for more information.
+~~NOTE: a recent proxmox update has broken docker running in LXC, read [this](https://forum.proxmox.com/threads/docker-in-lxc-l%C3%A4uft-nicht-mehr.83651/) forum post for more information.~~ Now fixed
 
 While it is possible to run Docker on the host OS, it makes more sense to run Docker inside a virtual machine or container. However, virtual machines have a higher overhead, so I wanted to try using an LXC container. By enabling two features, Docker will happily run inside an unprivileged LXC container.
 
