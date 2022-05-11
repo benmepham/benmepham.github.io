@@ -13,6 +13,7 @@ categories:
 While it is possible to run Docker on the host OS, it makes more sense to run Docker inside a virtual machine or container. However, virtual machines have a higher overhead, so I wanted to try using an LXC container. By enabling two features, Docker will happily run inside an unprivileged LXC container.
 
 Via command line, open the container's config file at `/etc/pve/lxc/xxx.conf` and add the line: 
+
 ```
 features: keyctl=1,nesting=1
 ```
