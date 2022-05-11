@@ -26,10 +26,14 @@ search: true
 
 # Comments
 comments:
-    provider: "utterances" # false (default), "disqus", "discourse", "facebook", "staticman_v2", "staticman", "utterances", "custom"
-    utterances:
-        theme: # "github-light" (default), "github-dark"
-        issue_term: # "pathname" (default)
+    provider: "giscus"
+    giscus:
+      repo_id              : "MDEwOlJlcG9zaXRvcnkyNTkwNjI1NDc="
+      category_name        : "Blog Comments"
+      category_id          : "DIC_kwDOD3D7E84CPC2w"
+      discussion_term      : "og:title"
+      reactions_enabled    : '1' # '1' for enabled (default), '0' for disabled
+      theme                : 'light' # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
 
 # Build settings
 markdown: kramdown
