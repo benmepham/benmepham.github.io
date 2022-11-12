@@ -19,7 +19,6 @@ logo: "/assets/images/b-icon.png"
 description: "Ben Mepham's personal website and blog"
 url: "https://bjm.me.uk"
 repository: "benmepham/benmepham.github.io"
-twitter_username: benjmepham
 github_username: benmepham
 minimal_mistakes_skin: default
 search: true
@@ -82,9 +81,6 @@ author:
     bio: "Tech Enthusiast and Computer Science Student"
     location: "UK"
     links:
-        - label: "Twitter"
-          icon: "fab fa-fw fa-twitter-square"
-          url: "https://twitter.com/benjmepham"
         - label: "GitHub"
           icon: "fab fa-fw fa-github"
           url: "https://github.com/benmepham"
@@ -94,9 +90,6 @@ author:
 
 footer:
     links:
-        - label: "Twitter"
-          icon: "fab fa-fw fa-twitter-square"
-          url: "https://twitter.com/benjmepham"
         - label: "GitHub"
           icon: "fab fa-fw fa-github"
           url: "https://github.com/benmepham"
