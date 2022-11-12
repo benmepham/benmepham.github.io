@@ -1,7 +1,4 @@
-# bjm.me.uk
-My personal website and blog
+# Personal Website and Blog
+Built with Jekyll and the Minimal Mistakes theme. Hosted on GitHub Pages.
 
-## Test locally
-```
-$ docker-compose up
-```
+Quick start: `docker-compose up`
