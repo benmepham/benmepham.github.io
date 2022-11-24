@@ -11,9 +11,8 @@
 locale: "en-GB"
 title: "Ben Mepham"
 title_separator: "-"
-#subtitle: ""
+subtitle: "CS Student & Tech Enthusiast"
 name: "Ben Mepham"
-#email:
 logo: "/assets/images/b-icon.png"
 #teaser: #set default teaser image
 description: "Ben Mepham's personal website and blog"
@@ -76,9 +75,9 @@ plugins:
     - jekyll-include-cache
 
 author:
-    name: "Ben"
+    name: "Ben Mepham"
     avatar: "/assets/images/bio-photo.jpg"
-    bio: "Tech Enthusiast and Computer Science Student"
+    bio: "Computer Science Student, Developer & Tech Enthusiast"
     location: "UK"
     links:
         - label: "GitHub"
@@ -87,6 +86,9 @@ author:
         - label: "Linkedin"
           icon: "fab fa-fw fa-linkedin"
           url: "https://www.linkedin.com/in/benmepham"
+        - label: "Email"
+          icon: "fas fa-fw fa-at"
+          url: "mailto:contact@bjm.me.uk"
 
 footer:
     links:
@@ -96,6 +98,9 @@ footer:
         - label: "Linkedin"
           icon: "fab fa-fw fa-linkedin"
           url: "https://www.linkedin.com/in/benmepham"
+        - label: "Email"
+          icon: "fas fa-fw fa-at"
+          url: "mailto:contact@bjm.me.uk"
 
 defaults:
     # _posts
