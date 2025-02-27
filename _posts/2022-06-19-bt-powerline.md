@@ -1,7 +1,5 @@
 ---
 title: "Low Cost BT Mini Connector V2 Powerline Adapter Performance"
-header:
-  teaser: /assets/images/2022-06-19-bt-powerline/adapters.jpg
 categories:
   - blog
 ---
