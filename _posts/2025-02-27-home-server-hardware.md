@@ -2,6 +2,8 @@
 title: "Home Server Hardware (HP Z240 SFF) - Why Used Workstations Make Great Home Servers"
 categories:
   - blog 
+tags:
+  - home-server
 ---
 
 tl;dr: The HP Z240 SFF Workstation makes a great budget home server with ECC, Intel AMT and space for 2x3.5" HDDs.
